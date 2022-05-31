@@ -119,10 +119,8 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("🔰 ɢʀᴏᴜᴘ", url="https://t.me/Cinimalokham"),
-                                              InlineKeyboardButton("🎁 sʜᴀʀᴇ", url="https://t.me/share/url?url=%20സിനിമ%20ലോകം.²·⁰%20%0A%0Aഏത്%20അർധരാത്രി%20ചോദിച്ചാലും%20പടം%20കിട്ടും,%20ലോകത്തിലെ%20ഒട്ടുമിക്ക%20ഭാഷകളിലുമുള്ള%20സിനിമകളുടെ%20കളക്ഷൻ..%20%0A%0A%20GROUP%20LINK%20%0A@CinimaLokham%0A@CinimaLokham%0A@CinimaLokham") ],
-                                            [ InlineKeyboardButton(' Fɪʟᴇ sɪᴢᴇ 【 {size} 】', callback_data='gxneo') ] ] )
-        )
+        reply_markup=InlineKeyboardMarkup(buttons),
+        ) 
                     
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
