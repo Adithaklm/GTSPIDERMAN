@@ -133,6 +133,8 @@ async def advantage_spoll_choker(bot, query):
             btn = [[
                 InlineKeyboardButton('ᴀᴅᴍɪɴ', url='https://t.me/adpsycho'),
                 InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/Brocklesnarqt')
+            ],[
+                InlineKeyboardButton('ᴄɪɴᴇᴍᴀ ᴄᴏᴍᴘᴀɴʏ ʜᴇʟᴘᴇʀ', url='https://t.me/Cm_feedbackerbot')
             ]]           
         k=await query.message.reply_photo(photo="https://telegra.ph/file/4db5865a30975652f9fa1.jpg", caption=script.REQ_MOV, reply_markup=InlineKeyboardMarkup(btn))    
         await asyncio.sleep(40)
