@@ -131,7 +131,7 @@ async def advantage_spoll_choker(bot, query):
                 InlineKeyboardButton('🔍 ɢᴏᴏɢʟᴇ 🔎', url=f'https://google.com/search?q='),
                 InlineKeyboardButton(' 🔍 ʏᴀɴᴅᴇx 🔎', url=f'https://yandex.com/search?text=')
             ]]           
-        k=await message.reply_photo(photo="https://telegra.ph/file/4bb1968bd091453b0070c.jpg", caption=script.REQ_MOV, reply_markup=InlineKeyboardMarkup(btn))    
+        k=await query.message.reply_photo(photo="https://telegra.ph/file/4bb1968bd091453b0070c.jpg", caption=script.REQ_MOV, reply_markup=InlineKeyboardMarkup(btn))    
         await asyncio.sleep(40)
         await k.delete()
         await msg.delete()
