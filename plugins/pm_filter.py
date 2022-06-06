@@ -126,6 +126,9 @@ async def advantage_spoll_choker(bot, query):
         if files:
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
+            await asyncio.sleep(10)
+            await k.delete()
+            await msg.delete()
         else:
             btn = [[
                 InlineKeyboardButton('🔍 ɢᴏᴏɢʟᴇ 🔎', url=f'https://google.com/search?q='),
