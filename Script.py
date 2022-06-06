@@ -335,3 +335,4 @@ __🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have T
       
     STATUS = """{}\nChat Member Status**\n\n```recently``` - {}\n```within_week``` - {}\n```within_month``` - {}\n```long_time_ago``` - {}\nDeleted Account - {}\nBot - {}\nUnCached - {}
 """
+    REQ_MOV = """PLEASE REQUEST YOUR MOVIES"""
