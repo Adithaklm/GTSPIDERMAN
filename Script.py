@@ -340,3 +340,5 @@ __🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have T
 <b>I Cᴀɴ'ᴛ Fɪɴᴅ Yᴏᴜʀ Rᴇǫᴜᴇsᴛᴇᴅ Mᴏᴠɪᴇ Iɴ Mʏ Dᴀᴛᴀʙᴀsᴇ . Pʟᴇᴀsᴇ Mᴇɴᴛɪᴏɴ Tʜᴀᴛ Mᴏᴠɪᴇ Nᴀᴍᴇ Tᴏ Gʀᴏᴜᴘ Aᴅᴍɪɴ</b>
 
 <b>📮 Mᴇɴᴛɪᴏɴ ➪</b> <code>@admin Puzhu</code>"""
+
+    CHK_MOV = """<i><b> Sᴏʀʀʏ I Cᴏᴜʟᴅɴ'ᴛ Fɪɴᴅ Aɴʏᴛʜɪɴɢ Rᴇʟᴀᴛᴇᴅ Tᴏ Tʜᴀᴛ Iɴ Mʏ Dᴀᴛᴀʙᴀsᴇ Pʟᴇᴀsᴇ Sᴇʟᴇᴄᴛ Yᴏᴜ Wᴀɴᴛ Mᴏᴠɪᴇ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ 👇</b></i>"""
