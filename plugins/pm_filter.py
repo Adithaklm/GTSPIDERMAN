@@ -987,7 +987,7 @@ async def advantage_spell_chok(msg):
                 )
             ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    k = await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?", reply_markup=InlineKeyboardMarkup(btn))
+    k=await query.message.reply_photo(photo="https://telegra.ph/file/4db5865a30975652f9fa1.jpg", caption=script.CHK_MOV, reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(8)
     await k.delete()
 
